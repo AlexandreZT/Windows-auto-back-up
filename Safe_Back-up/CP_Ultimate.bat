@@ -22,4 +22,4 @@ xcopy C:"Users\%username%\OneDrive\Bureau" \CP\Desktop /e/y/i
 xcopy C:"Users\%username%\Videos" \CP\Videos /e/y/i
 xcopy C:"Users\%username%\OneDrive\Videos" \CP\Videos /e/y/i
 
-exit
+REM exit

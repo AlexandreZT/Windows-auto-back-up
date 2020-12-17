@@ -1,8 +1,8 @@
 ﻿@ECHO OFF REM command to shown
 
-set /p first="First Letter: " || set first=C
-set /p last="Last Letter: " || set last=G
-set /p dest="Dest Letter: " || set dest=Z
+set /p first="First Letter of disk to save (C?): " || set first=C
+set /p last="Last Letter of disk to save: " || set last=G
+set /p dest="Destination Letter of disk to save: " || set dest=Z
 set alph=ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 REM xcopy %%p:\ %dest%:\CP\D /e/y/i
